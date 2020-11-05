@@ -10,7 +10,7 @@ class ExampleTest(unittest.TestCase):
         self.assertEqual("this is an example test","this is an example test")
         
         # this one is an error!
-        self.assertFalse(True,"This is a custom error message blah blah blah")
+        self.assertFalse(False,"This is a custom error message blah blah blah")
 
     def test_my_square_root(self):
         self.assertEqual(18.0, my_square_root(324.0))
